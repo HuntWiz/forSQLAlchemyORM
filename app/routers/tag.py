@@ -18,7 +18,9 @@ async def all_tags(db: Annotated[Session, Depends(get_db)]):
 
 @router.post('/create_tag')
 async def create_tag(db: Annotated[Session, Depends(get_db)], cr_tag: CreateTag):
-    db.scalar(insert(Tag).values(title=cr_tag.title))
+    new_tag=Tag(title=cr_tag.title)
+    db.add(new_tag)
+    """db.scalar(insert(Tag).values(title=cr_tag.title))"""
     db.commit()
     return {'status_code': status.HTTP_201_CREATED,
             'transaction': 'Tag created successful!'}
@@ -28,7 +30,7 @@ async def create_tag(db: Annotated[Session, Depends(get_db)], cr_tag: CreateTag)
 async def update_tag(tag_id: int, db: Annotated[Session, Depends(get_db)], update_tag: UpdateTag):
     tag = db.scalar(select(Tag).where(Tag.id == tag_id))
     if tag is None:
-        raise HTTPException(status_code=404, detail='User was not found')
+        raise HTTPException(status_code=404, detail='Tag was not found')
 
     db.execute(update(Tag).where(Tag.id == tag_id).values(title=update_tag.title))
     db.commit()

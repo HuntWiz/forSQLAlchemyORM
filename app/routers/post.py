@@ -30,7 +30,7 @@ async def user_by_id(post_id:int, db: Annotated[Session, Depends(get_db)]):
 async def create_post(db:Annotated[Session, Depends(get_db)], create_post: CreatePost):
     db.execute(insert(Post).values(title=create_post.title,
                                    content=create_post.content,
-                                   tags_id=create_post.tags_id))
+                                   ))
     db.commit()
     return {'status_code': status.HTTP_201_CREATED,
             'transaction': 'Successful'}
@@ -44,7 +44,7 @@ async def update_post(post_id:int, db:Annotated[Session, Depends(get_db)], updat
 
     db.execute(update(Post).where(Post.id == post_id).values(title=update_post.title,
                                    content=update_post.content,
-                                   tags_id=update_post.tags_id))
+                                   ))
     db.commit()
     return {'status_code': status.HTTP_201_CREATED,
             'transaction': 'Post updated successful!'}

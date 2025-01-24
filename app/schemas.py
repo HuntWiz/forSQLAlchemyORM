@@ -1,16 +1,18 @@
-from pydantic import BaseModel
+from typing import Optional
+
+from pydantic import BaseModel, Field
 
 
 class CreatePost(BaseModel):
     title: str
     content: str
-    tags_id: list[int] = []
+
 
 
 class UpdatePost(BaseModel):
     title: str
     content: str
-    tags_id: list[int] = []
+
 
 
 class CreateTag(BaseModel):

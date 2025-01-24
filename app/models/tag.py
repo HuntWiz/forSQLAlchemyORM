@@ -11,8 +11,8 @@ class Tag(Base):
     id: Mapped[int] = mapped_column(primary_key=True, index=True)
     title: Mapped[str] = mapped_column(String(50))
 
-    post: Mapped[list['Post']] = relationship(
-        secondary=association_table,
+    posts: Mapped[list['Post']] = relationship('Post',
+        secondary='association_table',
         back_populates="tags",
         lazy="selectin"
     )
