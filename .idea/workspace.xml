@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f501522e-2462-41b0-b5ad-d138e798f7c2" name="Changes" comment="maybe working">
+      <change beforePath="$PROJECT_DIR$/app/backend/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/app/backend/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/backend/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/backend/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/backend/db_depends.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/backend/db_depends.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routers/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/post.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routers/tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/tag.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas.py" afterDir="false" />
@@ -18,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -33,22 +37,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.db.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.schemas.executor": "Run",
-    "Python.tag.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Dowland/Python projects/forSQLAlchemyORM/app/backend"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.db.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.schemas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tag.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dowland/Python projects/forSQLAlchemyORM/app/backend&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Dowland\Python projects\forSQLAlchemyORM\app\backend" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dowland\Python projects\forSQLAlchemyORM\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="forSQLAlchemyORM" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
