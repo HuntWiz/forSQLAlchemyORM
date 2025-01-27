@@ -3,9 +3,9 @@ from sqlalchemy.orm import Session, selectinload
 from app.backend.db_depends import get_db
 from typing import Annotated
 
-from app.models import Post, Tag
+from app.models import Tag
 from app.schemas import CreateTag, UpdateTag, PostResponse
-from sqlalchemy import insert, select, update, delete
+from sqlalchemy import select, update, delete
 
 router = APIRouter(prefix='/tag', tags=['tag'])
 
@@ -53,7 +53,7 @@ async def posts_by_tag(tag_id: int, db: Annotated[Session, Depends(get_db)]):
 
 
 @router.delete('/delete_tag')
-async def delete_post(tag_id: int, db: Annotated[Session, Depends(get_db)]):
+async def delete_tag(tag_id: int, db: Annotated[Session, Depends(get_db)]):
     tag = db.scalar(select(Tag).where(Tag.id == tag_id))
     if tag is None:
         raise HTTPException(status_code=404, detail='Tag was not found')

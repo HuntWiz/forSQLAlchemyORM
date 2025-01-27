@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f501522e-2462-41b0-b5ad-d138e798f7c2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alembic.ini" beforeDir="false" afterPath="$PROJECT_DIR$/alembic.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/backend/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/backend/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/database.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/migrations/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/migrations/env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/migrations/script.py.mako" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/migrations/versions/14c493a7f716_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/migrations/versions/d3b4b544562b_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/migrations/versions/eb0caacaec37_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/post.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/tag.py" afterDir="false" />
+    <list default="true" id="f501522e-2462-41b0-b5ad-d138e798f7c2" name="Changes" comment="maybe working">
       <change beforePath="$PROJECT_DIR$/app/routers/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/post.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routers/tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/tag.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas.py" afterDir="false" />
@@ -79,6 +66,19 @@
       <option name="presentableId" value="Default" />
       <updated>1737580473076</updated>
     </task>
+    <task id="LOCAL-00001" summary="maybe working">
+      <option name="closed" value="true" />
+      <created>1737689638394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737689638394</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="maybe working" />
+    <option name="LAST_COMMIT_MESSAGE" value="maybe working" />
   </component>
 </project>

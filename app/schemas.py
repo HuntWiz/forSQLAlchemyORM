@@ -7,7 +7,8 @@ class CreatePost(BaseModel):
     title: str
     content: str
 
-
+class PostGetTagsModel(BaseModel):
+    tags_id: list[int]
 
 class UpdatePost(BaseModel):
     title: str
